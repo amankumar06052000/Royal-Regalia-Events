@@ -657,3 +657,204 @@ section.services-container {
     justify-content: center;
   }
 }
+
+
+/* ======================================
+MISSING RESPONSIVE CSS
+Is code ko sabse bottom me paste karo
+======================================*/
+
+/* Laptop */
+@media (max-width:1200px){
+
+.left-content h1{
+  font-size:55px;
+}
+
+#Categories h2,
+#arrivals-banner h2,
+#testimonials h2,
+.about-left h2{
+  font-size:45px;
+}
+
+.text-card h2{
+  font-size:42px;
+}
+
+.review-card h4{
+  font-size:24px;
+}
+
+.review-card p{
+  font-size:18px;
+}
+
+}
+
+/* Tablet */
+@media (max-width:992px){
+
+header{
+  padding:18px 20px;
+}
+
+.navbar{
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.right-box{
+  width:100%;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.container,
+.about-container,
+.contact-wrapper,
+.container-offers{
+  flex-direction:column;
+  display:flex;
+  gap:30px;
+}
+
+.left-content,
+.right-img{
+  width:100%;
+}
+
+.left-content h1{
+  font-size:42px;
+}
+
+.left-content p{
+  font-size:18px;
+}
+
+.cards-box{
+  grid-template-columns:repeat(2,1fr);
+}
+
+.review-box{
+  grid-template-columns:1fr;
+}
+
+.about-features{
+  grid-template-columns:1fr 1fr;
+}
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+header{
+  padding:15px;
+}
+
+.logo img{
+  width:80px;
+}
+
+.search-box{
+  width:100%;
+}
+
+.search-box input{
+  width:100%;
+}
+
+.top-btn,
+.banner-btn,
+.arrival-btn,
+.shop-btn,
+.about-btn{
+  width:100%;
+  justify-content:center;
+}
+
+.left-content h1{
+  font-size:34px;
+}
+
+.left-content p{
+  font-size:16px;
+}
+
+#Categories h2,
+#arrivals-banner h2,
+#testimonials h2,
+.contact-header h1,
+.about-left h2{
+  font-size:30px;
+}
+
+#testimonials h3{
+  font-size:24px;
+}
+
+.cards-box{
+  grid-template-columns:1fr;
+}
+
+.card img{
+  height:auto;
+}
+
+.offer-row{
+  flex-direction:column;
+}
+
+.about-features{
+  grid-template-columns:1fr;
+}
+
+.feature{
+  font-size:16px;
+}
+
+.experience-box{
+  position:static;
+  margin-top:20px;
+}
+
+.footer-bottom p{
+  line-height:1.8;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+.left-content h1{
+  font-size:28px;
+}
+
+.line-design span{
+  width:45px;
+}
+
+.review-card,
+.contact-form,
+.info-card,
+.text-card{
+  padding:18px;
+}
+
+.review-btn{
+  font-size:16px;
+}
+
+.discount-text,
+.promo-code{
+  font-size:14px;
+  padding:10px 15px;
+}
+
+.footer-logo{
+  width:90px;
+}
+
+}
