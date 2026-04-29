@@ -92,6 +92,55 @@ header{
         display:none;
     }
 }
+
+
+
+/* MENU BUTTON HIDE DESKTOP */
+.menu-btn{
+  display:none;
+  color:#d4af37;
+  font-size:28px;
+  cursor:pointer;
+}
+
+/* MOBILE + MINI TAB */
+@media(max-width:768px){
+
+.menu-btn{
+  display:block;
+}
+
+.nav-links{
+  display:none;
+  position:absolute;
+  top:80px;
+  left:0;
+  width:100%;
+  background:#000;
+  flex-direction:column;
+  text-align:center;
+  padding:20px 0;
+  z-index:999;
+  border-top:1px solid #d4af37;
+}
+
+.nav-links a{
+  display:block;
+  padding:15px;
+  font-size:18px;
+  border-bottom:1px solid #111;
+}
+
+.nav-links.show{
+  display:flex;
+}
+
+}
+
+
+
+
+
 .right-box {
     display: flex;
     align-items: center;
